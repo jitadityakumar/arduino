@@ -1,4 +1,5 @@
 // LDR Test
+// Board Arduino Uno
 
 int LDR_PIN = A0;
 
