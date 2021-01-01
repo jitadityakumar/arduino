@@ -1,3 +1,5 @@
+// Board ESP32
+
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WebServer.h>
@@ -6,7 +8,7 @@
 const char *ssid = "JK-HOME";
 const char *password = "f33dm3mor3";
 
-int LDR_PIN = 34;
+int LDR_PIN = 33;
 
 WebServer server(80);
 
@@ -61,9 +63,9 @@ void setup(void) {
 }
 
 void loop(void) {
-  //server.handleClient();
+  server.handleClient();
 
-  ldr_read();
+  //ldr_read();
   
 }
 
