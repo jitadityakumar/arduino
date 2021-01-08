@@ -15,9 +15,9 @@ int setup_ready = 0;
 int b_status = 0; // 0 - Closed , 1 - Open
 
 // Set open/close speed
-int blind_speed = 30;
+int blind_speed = 15;
 // Set open/close duration
-int duration = 10000;
+int duration = 5000;
 // Continious motion control
 int motion = 0;
 // Continious motion value
